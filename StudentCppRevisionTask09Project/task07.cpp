@@ -28,5 +28,19 @@
 */
 
 int task07(long a) {
-	return 0;
+    unsigned int a = 0;
+    cout << "Input n: ";
+    cin >> a;
+    unsigned int min_number = 9;
+
+    while (a > 0)
+    {
+        if ((a % 10) < min_number) min_number = a % 10;
+        a /= 10;
+    }
+
+    cout << "Min number : " << min_number << endl;
+
+    system(" pause");
+    return 0;
 }

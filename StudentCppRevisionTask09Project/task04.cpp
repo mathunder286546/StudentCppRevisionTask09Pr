@@ -24,6 +24,13 @@
 *	[output 4]: 0
 */
 
-string task04(int a) {
-	return " ";
+string task04(int N) {
+    int i = 1;
+    while (i <= N) {
+        cout << i << " ";
+        i = i * 2;
+    }
+    system("pause");
+    return 0;
+
 }

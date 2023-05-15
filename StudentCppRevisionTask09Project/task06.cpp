@@ -24,5 +24,16 @@
 */
 
 int task06(long a) {
-	return 0;
+
+    int sum = 0;
+
+    while (a != 0)
+    {
+        sum += a % 10;
+        a /= 10;
+    }
+    cout << "sum = " << sum << endl;
+
+    return 0;
+    return 0;
 }
